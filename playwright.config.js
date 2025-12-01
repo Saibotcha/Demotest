@@ -21,7 +21,7 @@ const config = defineConfig({
     browserName: 'chromium',              // Playwright uses Chromium core for Edge
     //channel: 'msedge',
     ignoreHTTPSErrors: true,
-    headless: false,
+    headless: true,
     screenshot: 'on',
     trace: 'on',
     video: 'off',
